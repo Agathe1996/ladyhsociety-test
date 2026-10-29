@@ -1,0 +1,82 @@
+<section id="home">
+  <header class="header-intro main-section">
+    <div class="main-title">
+      <h1><span>{{{__ "home.mainTitle"}}}</span></h1>
+    </div>
+    <p class="catchphrase">{{{__ "home.subtitle"}}}</p>
+    <div class="buttons-panel">
+      <a href="#story" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+      <a class="button text-button" href="https://www.youtube.com/channel/UCWDyHc9uG9jf1SdK_JvXZyw" target = "_blank">{{{__ "home.YT"}}}</a>
+    </div>
+  </header>
+
+  <section id="story" class="main-section">
+    <div>
+      <h2 class="hero-title">{{{__ "home.welcome"}}}</h2>
+    </div>
+    <div>
+      <p class="main-paragraph">{{{__ "home.intro.1"}}}</p>
+      <p class="main-paragraph">{{{__ "home.intro.2"}}}</p>
+      <p class="main-paragraph">{{{__ "home.intro.3"}}}</p>
+    </div>
+    <div>
+      <img id="fixedImage" src="images/Lisa.png">
+    </div>
+    <div class = "buttons-panel">
+      <a id="blackarrowfar" href="#actions" class="icon-container">
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="actions" class="main-section">
+    <div class="action">
+      <h2 class="hero-title">{{{__ "home.callToAction.1.call"}}}</h2>
+      <div class = "buttons-panel">
+        <a href="/videos" class="button black-button" target="_blank">{{{__ "home.callToAction.1.name"}}}
+        </a>
+        <a href="/workshops" class="button black-button" target="_blank">{{{__ "home.callToAction.4.name"}}}
+        </a>
+      </div>
+    </div>
+    <div class="action">
+      <h2 class="hero-title">{{{__ "home.callToAction.2.call"}}}</h2>
+      <a href="/contact" class="button black-button" target="_blank">{{{__
+          "home.callToAction.2.name"
+        }}}
+      </a>
+    </div>
+    <div class="action" >
+      <h2 class="hero-title">{{{__ "home.callToAction.3.call"}}}</h2>
+      <a href="/mission" class="button black-button" target="_blank">{{{__
+          "home.callToAction.3.name"
+        }}}
+      </a>
+    </div>
+    <div class="action">
+      <img id="fixedImage" src="images/LHS.png">
+    </div>
+    <div class = "buttons-panel" style="align-items: end;">
+      <a id="blackarrow" href="#themes" class="icon-container" >
+        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+  <section id="themes" class="main-section">
+    <h2 class="hero-title">{{{__ "home.graph.title1"}}}</h2>
+    <div
+      class="flourish-embed flourish-network"
+      data-src="{{{__ 'home.graph.flourish'}}}"
+    ><script
+        src="https://public.flourish.studio/resources/embed.js"
+      ></script></div>
+    <div>
+      <h2 class="hero-title">{{{__ "home.graph.title2"}}}</h2>
+    </div>
+    <div style="text-align: center;">
+      <img id="fixedImage" src={{{__ "home.graph.image"}}} alt="résumé des thèmes">
+    </div>
+  </section>
+</section>
